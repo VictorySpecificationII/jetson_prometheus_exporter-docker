@@ -8,14 +8,13 @@ The original work can be found at:
  - https://github.com/Ektimo
 
 ## How to use
-Either:
+One of two ways:
  - docker run -d intellectualplayspace/jetsonbox_exporter:latest
-or:
  - docker-compose up -d
 
 
 ## Notes
 
 If you wish to change the port the service runs on, edit:
- - __main__.py
+ - main.py
  - EXPOSE statement in Dockerfile

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  my_nvidia_container:
+    restart: always
+    build: .
+    privileged: true
+

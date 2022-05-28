@@ -17,5 +17,5 @@ COPY ./jetson_clocks .
 
 EXPOSE 8888/udp
 EXPOSE 8888/tcp
-
+CMD ./tegrastats
 ENTRYPOINT python3 -m jetson_prometheus_exporter

@@ -13,6 +13,9 @@ Either:
 or:
  - docker-compose up -d
 
+## Browser
+
+If you wish to see the metrics, navigate to <jetson_ip>:8888
 
 ## Notes
 

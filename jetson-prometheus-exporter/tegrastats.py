@@ -226,7 +226,7 @@ class TegrastatsException(Exception):
 
 
 def get_tegrastats_file():
-    TEGRASTATS = ['/usr/bin/tegrastats', '/home/nvidia/tegrastats']
+    TEGRASTATS = ['./tegrastats', '/usr/bin/tegrastats', '/home/nvidia/tegrastats']
     for file_tegra in TEGRASTATS:
         if Path(file_tegra).is_file():
             return file_tegra

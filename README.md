@@ -12,6 +12,9 @@ One of two ways:
  - docker run -d intellectualplayspace/jetsonbox_exporter:latest
  - docker-compose up -d
 
+ - Connect a Prometheus datasource on your target Grafana Visualization Tool
+ - Import dashboard and point to the Prometheus datasource you connected.
+
 ## Browser
 
 If you wish to see the metrics, navigate to <jetson_ip>:8888
